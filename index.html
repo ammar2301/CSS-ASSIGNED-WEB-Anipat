@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        #navbar{
+            /* border: 1px solid; */
+            width: 100%;
+            margin-top: 10vh;
+            margin: auto;
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            line-height: 120%;
+            /* position: fixed; */
+            /* top: 0%; */
+        }
+        #navbar>img{
+            width: 22vh;
+            height: 5.5vh;
+            margin-top: 15px;
+        }
+        ul{
+            display: flex;
+        }
+        ul>a{
+            text-decoration: none;
+            list-style-type: none;
+        }
+        a:hover{
+            color: orangered;
+        }
+        li{
+            padding: 25px;
+        }
+        #main{
+            background-image: url(imgs/banner.png.webp);
+            width: 100%;
+            height: 90vh;
+            position: absolute;
+            display: flex;
+        }
+        #main>img{
+            height: 90%;
+            margin-top:10%;
+        }
+        #main1{
+            /* border: 1px solid; */
+            width: 25%;
+            height: 50vh;
+            color: white;
+            line-height: 250%;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+        #para{
+            font-size: 500%;            
+        }
+        #main1>h2{
+            font-size: 500%;
+        }
+        #main1>button{
+            width: 55%;
+            height: 18%;
+            border-radius: 30px;
+            border: none;
+            margin-top: 8%;
+            color: orangered;
+        }
+        button:hover{
+            color: white;
+            background-color: orangered;
+        }
+        #b{
+            /* border: 1px solid; */
+            width: 40%;
+            height: 35vh;
+            margin: auto;
+            margin-top: 50%;
+            text-align: center;
+            padding-top: 5%;
+        }
+        #b>h1{
+            font-size: 350%;
+        }
+        #b>p{
+            color: gray;
+        }
+        #c{
+            border: 1px solid;
+            width: 90%;
+            height:70vh;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .c11{
+            border: 1px solid orangered;
+            width: 25%;
+            height: 90%;
+        }
+        .c11>#c112{     
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <img src="imgs/logo.webp" alt="">
+
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li> Blog</li></a>
+                <a href=""><li>Pages</li></a>
+                <a href=""><li>Services</li></a>
+                <a href=""><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div id="main">
+        <div id="main1"><p id="para">We Care</p> <br> <h2>Your Pets</h2><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum suscipit doloribus </p> <button>Contact Us</button> </div>
+        <img src="imgs/dog.pic">
+    </div>
+    <div id="b">
+        <h1>Services for every dog</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>    
+    </div>
+    <div id="c">
+        <div class="c11"><div id="c12"></div></div>
+        <div class="c11"><div id="c12"></div></div>
+        <div class="c11"><div id="c12"></div></div>
+    </div>
+</body>
+</html>
